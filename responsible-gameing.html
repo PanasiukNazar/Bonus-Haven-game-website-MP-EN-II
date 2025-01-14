@@ -382,6 +382,23 @@
             ><i class="bi bi-arrow-up"></i
         ></a>
 
+        <!-- Start Age Verification popup -->
+        <div class="popup-overlay show" id="ageVerificationPopup">
+            <div class="popup-content">
+                <h1>Welcome!</h1>
+                <p>You must be 18 years or older to access this site.</p>
+                <div class="buttons">
+                    <button class="age-button confirm-button" id="confirmAge">
+                        I am 18 or Older
+                    </button>
+                    <button class="age-button deny-button" id="denyAge">
+                        I am Under 18
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- End Age Verification popup -->
+
         <!-- Cookie banner -->
         <div class="cookie-wrapper show">
             <div>
@@ -420,5 +437,6 @@
         <script src="js/main.js"></script>
         <script src="js/contact-form.js"></script>
         <script src="js/cookiebanner.js"></script>
+        <script src="js/adulthood-popup.js"></script>
     </body>
 </html>
